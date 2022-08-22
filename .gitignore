@@ -1,0 +1,27 @@
+# Project exclude paths
+/.gradle/
+/Tasklist/task/build/
+/Tasklist/task/out/production/classes/
+/Tasklist/task/out/test/classes/
+/Topics/For loop and arrays/Triples/out/
+/Topics/For loop and arrays/Triples/out/production/classes/
+/Topics/Kotlinx datetime library/Days difference/out/
+/Topics/Kotlinx datetime library/Days difference/out/production/classes/
+/Topics/Kotlinx datetime library/Leap Year/out/
+/Topics/Kotlinx datetime library/Leap Year/out/production/classes/
+/Topics/List/Indexes/out/
+/Topics/List/Indexes/out/production/classes/
+/Topics/List/Number of occurrences/out/
+/Topics/List/Number of occurrences/out/production/classes/
+/Topics/List/Sum of numbers/out/
+/Topics/List/Sum of numbers/out/production/classes/
+/Topics/List/Theory/out/
+/Topics/List/Theory/out/production/classes/
+/Topics/Mutable List/Add them all/out/
+/Topics/Mutable List/Add them all/out/production/classes/
+/Topics/Mutable List/Banana/out/
+/Topics/Mutable List/Banana/out/production/classes/
+/Topics/Mutable List/New List/out/
+/Topics/Mutable List/New List/out/production/classes/
+/Topics/Mutable List/Theory/out/
+/Topics/Mutable List/Theory/out/production/classes/

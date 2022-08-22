@@ -1,0 +1,36 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    import kotlinx.datetime.*
+
+    fun nextMonth(date: String): String {
+        // Write your code here
+
+        //
+    }
+
+    fun main() {
+        val date = readln()
+        println(nextMonth(date))
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19466#comment
+status: Failed
+feedback:
+  message: "Failed test #1 of 2. Runtime error\n\nThis is a sample test from the problem\
+    \ statement!\n\nTest input:\n2000-12-01T00:00:00Z\nCorrect output:\n2001-01-01T00:00:00Z\n\
+    \nYour code output:\n\n\nError:\nException in thread \"main\" java.time.format.DateTimeParseException:\
+    \ Text '2000-12-01T00:00:00Z' could not be parsed, unparsed text found at index\
+    \ 19\n\tat java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2049)\n\
+    \tat java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1948)\n\
+    \tat java.base/java.time.LocalDateTime.parse(LocalDateTime.java:492)\n\tat java.base/java.time.LocalDateTime.parse(LocalDateTime.java:477)\n\
+    \tat MainKt.nextMonth(main.kt:10)\n\tat MainKt.main(main.kt:17)\n\tat MainKt.main(main.kt)\n\
+    \tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\
+    \tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\
+    \tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\
+    \tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.jetbrains.kotlin.runner.AbstractRunner.run(runners.kt:70)\n\
+    \tat org.jetbrains.kotlin.runner.Main.run(Main.kt:188)\n\tat org.jetbrains.kotlin.runner.Main.main(Main.kt:198)\n"
+  time: Sun, 21 Aug 2022 14:47:31 UTC
+record: -1
